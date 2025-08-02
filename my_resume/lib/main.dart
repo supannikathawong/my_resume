@@ -92,7 +92,10 @@ class MyHomePage extends StatelessWidget {
                   children: [
                     sectionTitle(Icons.school, 'ประวัติการศึกษา'),
                     const SizedBox(height: 10),
-                    buildInfoRow('ประถมศึกษา:', 'โรงเรียนนารีราษฎร์ (2559)'),
+                    buildInfoRow(
+                      'ประถมศึกษา:',
+                      'โรงเรียนนารีราษฎร์สามัคคี (2559)',
+                    ),
                     buildInfoRow('มัธยมต้น:', 'โรงเรียนวัชรวิทยา (2562)'),
                     buildInfoRow('มัธยมปลาย:', 'โรงเรียนวัชรวิทยา (2565)'),
                   ],
